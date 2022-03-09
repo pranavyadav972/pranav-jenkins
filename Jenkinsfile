@@ -7,6 +7,10 @@ pipeline {
         sh '''
                   echo "Multiline shell steps works too"
                   ls -lah
+                  cd /var/www/html
+                  
+                  
+                  
                 '''
       }
     }
