@@ -9,7 +9,7 @@ pipeline {
                   ls -lah
                   cd /var/www/html/AllenJenkins
                   ls
-                  
+                  git pull https://github.com/LUCIFER1907/AllenJenkins.git
                   
                 '''
       }
