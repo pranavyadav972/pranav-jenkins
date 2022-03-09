@@ -9,7 +9,6 @@ pipeline {
                   ls -lah
                   cd /var/www/html/pranav-jenkins
                   ls
-                  git pull https://github.com/pranavyadav972/pranav-jenkins.git
                   
                 '''
       }
